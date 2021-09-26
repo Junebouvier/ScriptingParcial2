@@ -12,6 +12,7 @@ public class ColorChanger : MonoBehaviour
     {
         capsuler = capsuler.GetComponent<Renderer>();
     }
+
     private void OnEnable()
     {
         channel.onColorChanged += ChangeColor;
